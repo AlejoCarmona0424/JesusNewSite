@@ -1,0 +1,288 @@
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 4em;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    clear: both;
+    font-style: italic;
+    margin-top: 0px;
+    
+}
+h1 img {
+    width: 100%;
+}
+nav {
+    text-align: center;
+}
+#hablamos {
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 20px;
+}
+#topbanner {
+    
+    background-image: linear-gradient(to top, rgba(149, 187, 131, 0), rgba(149,187, 131, 1));
+    text-align: center;
+    font-size: 1.6em;
+    padding: 20px 0px 20px 0px;
+    margin-top: 0px;
+    height: 30px;
+}
+nav a {
+    padding: 0px 20px 0px 20px;
+}
+footer {
+    text-align: center;
+}
+body {
+    background-image: url(media/images/leaves.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 0px;
+}
+p {
+    font-size: 2em;
+    padding: 0px 10px 10px 10px;
+    clear: both;
+}
+td {
+    font-size: 1.5em;
+    width: 10px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.3em;
+}
+footer p {
+    font-size: 1em;
+}
+#mainblock {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    font-size: 2em;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}
+nav a:hover {
+    color: rgb(82, 187, 248);
+}
+#wrapper {
+    background-color: rgba(149, 187, 131, 0.76);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    clear: both;
+    box-shadow: 20px 20px 20px rgb(36, 36, 36) ;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.number {
+    float: right;
+    padding-right: 30px;
+    clear: none;
+}
+img {
+    max-width: 900px;
+    min-width: 30px;
+    width: 80%;
+
+}
+#facebook {
+    float: left;
+    padding-left: 30px;
+    font-weight: bold;
+}
+#topbanner p {
+    font-size: 1em;
+    margin-top: 0px;
+    
+}
+#topbanner a:visited {
+    color: #4267B2;
+}
+a {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+dl {
+    float: left;
+    padding-left: 40px;
+    width: 40%;
+    text-align: left !important;
+}
+dt {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+dd {
+    font-size: 1.5em;
+    padding: 10px 10px 5px 10px;
+}
+#services1 {
+    float: right;
+    width: 45%;
+    padding: 90px 40px 40px 10px;
+    height: 50%;
+}
+#contactimage2 {
+    float: right;
+    width: 45%;
+    padding: 0px 20px 20px 0px;
+    height: 50%;
+}
+#contactemail {
+    margin-left: 20px;
+    font-size: 1.4em;
+}
+hr {
+    clear: both;
+}
+#aboutusimage2 {
+    float: right;
+    width: 45%;
+    padding: 0px 20px 20px 0px;
+    height: 50%;
+}
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
+
+}
+.mobile {
+    display: none;
+}
+#keywords {
+    display: none;
+}
+footer {
+    padding-bottom: 30px;
+}
+@media (max-width: 1055px) {
+    nav {
+        font-size: 1.8em;
+    }
+    nav a {
+        padding: .6em;
+    }
+}
+@media (max-width: 805px) {
+    nav {
+        font-size: 1.5em;
+    }
+    nav a {
+        padding: .3em;
+    }
+}
+@media (max-width: 584px) {
+    nav {
+        font-size: 1em;
+    }
+    nav a {
+        padding: .3em;
+    }
+}
+@media (max-width: 500px) {
+    #wrapper {
+        width: 100%;
+        background-color: rgba(149, 187, 131, 0.76);
+        
+    }
+    dt {
+        width: 90%;
+    }
+    dl {
+        text-align: center;
+        width: 90%;
+    }
+
+    #services1 {
+        float: none;
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+    #topbanner {
+        font-size: 1.1em;
+        font-weight: bold;
+        
+    }
+    #topbanner p {
+        padding: 0px 5px 0px 5px;
+    }
+    #contactimage2 {
+        float: none;
+        width: 90%;
+        padding: 10px;
+    }
+    #aboutusimage2 {
+        float: none;
+        width: 90%;
+        padding: 10px;
+    }
+    #contactemail {
+        font-size: 1.1em;
+    }
+    .mobile {
+        display: inline-block;
+    }
+    .desktop {
+        display: none;
+    }
+    #hiimhonorio {
+        padding: 10px 0px 10px 0px;
+        float: none;
+        width: 100%;
+    }
+    #menu {
+        display: flex;
+        flex-direction: row;
+    }
+    #menubutton {
+        width: 15%;
+    }
+    details>summary {
+        list-style: none;
+    }
+    details>summary::-webkit-details-marker {
+        display: none;
+    }
+    ul {
+        text-align: left;
+        list-style-type: none;
+    }
+    li {
+        line-height: 60px;
+    }
+    #hablamos {
+        margin: 0px;
+    }
+    h1{
+        padding-top: 0px;
+    }
+    p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #facebook {
+        font-weight: bold;
+    }
+}
