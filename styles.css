@@ -281,8 +281,12 @@ footer {
     p {
         margin-top: 15px;
         margin-bottom: 15px;
+        font-size: 1.7em;
     }
     #facebook {
         font-weight: bold;
+    }
+    nav li {
+        font-size: 1.5em;
     }
 }
